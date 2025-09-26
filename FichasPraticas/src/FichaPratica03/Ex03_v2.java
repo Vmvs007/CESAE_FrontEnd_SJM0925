@@ -1,13 +1,13 @@
 package FichaPratica03;
 
-public class Ex02 {
+public class Ex03_v2 {
     public static void main(String[] args) {
 
-        int num = 1;
+        int num = 531;
 
-        while (num <= 400) {
+        while (num <= 700) {
 
-            if (num % 2 == 0) {
+            if (num % 2 != 0) {
                 System.out.println(num);
             }
 
